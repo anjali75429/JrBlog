@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
@@ -10,8 +11,10 @@ export default function Header() {
         <nav className="space-x-4">
           <Link href="/">Home</Link>
           <Link href="/blog">Blogs</Link>
+          <ThemeToggle />
         </nav>
       </div>
     </header>
   );
 }
+
