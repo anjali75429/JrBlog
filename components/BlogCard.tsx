@@ -7,7 +7,7 @@ export default function BlogCard({ blog }: { blog: Blog }) {
       <h2 className="text-lg font-bold mb-2">
         {blog.title}
       </h2>
-      <p className="text-gray-600 mb-3">
+      <p className="text-gray-500 mb-3">
         {blog.body.substring(0, 80)}...
       </p>
       <Link
@@ -19,3 +19,4 @@ export default function BlogCard({ blog }: { blog: Blog }) {
     </div>
   );
 }
+
