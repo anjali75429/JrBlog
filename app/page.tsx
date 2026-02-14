@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-4">
         Welcome to JrBlog
       </h1>
-      <p className="text-gray-600 mb-6">
+      <p className="text-gray-500 mb-6">
         Read the latest blog posts.
       </p>
       <Link
@@ -18,3 +18,4 @@ export default function Home() {
     </div>
   );
 }
+
