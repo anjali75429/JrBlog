@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-black dark:bg-black dark:text-white">
+      <body className="bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
         <Header />
         <main className="max-w-6xl mx-auto p-6 min-h-screen">
           {children}
